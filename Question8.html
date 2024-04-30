@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+        td{
+            padding: 8px;
+        }
+        button{
+            color: aliceblue;
+            border: none;
+            margin: 2px;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+
+        }
+        .edit{
+            background-color: blue;
+        }
+        .delete{
+            background-color: red;
+        }
+        .delete:hover{
+            opacity: 0.5;
+        }
+        .edit:hover{
+            opacity: 0.5; 
+        }
+    </style>
+    <div >
+        <h1 style="text-align: center;">Vegetables of the week</h1>
+        
+    </div>
+    
+    <table border="3" style="margin: auto;">
+        <tr>
+            <th>Vegetable</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Height</th>
+            <th>Harvest</th>
+            <th>conditions</th>
+            <th>Image</th>
+            <th>Modify</th>
+        </tr>
+        <tr>
+            <td>Eggplant</td>
+            <td>solarium Melongena</td>
+            <td>$1.40</td>
+            <td>45Cm</td>
+            <td>68 days</td>
+            <td>1m apart</td>
+            <td><img src="images/eggPlant.jpg" width="100px" height="100px" alt=""></td>
+            <td><button class="edit">Edit</button><button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Tomatoe</td>
+            <td>Lycopersion Escilentum</td>
+            <td>$1.50</td>
+            <td>1m</td>
+            <td>80 days</td>
+            <td>wire cage</td>
+            <td><img src="images/tomato.jpg" width="100px" height="100px" alt=""></td>
+            <td><button class="edit">Edit</button><button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>scarlet Beans</td>
+            <td>Phaseolus Coccineus</td>
+            <td>$2.00</td>
+            <td>2m</td>
+            <td>64 days</td>
+            <td>planted 10cm apart at the base</td>
+            <td><img src="images/beans.jpg" width="100px" height="100px" alt=""></td>
+            <td><button class="edit">Edit</button><button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Carrot</td>
+            <td>Daracus carota</td>
+            <td>$1.80</td>
+            <td>30Cm</td>
+            <td>73 days</td>
+            <td>thin to 8cm apart</td>
+            <td><img src="images/carrot.jpg" width="100px" height="100px" alt=""></td>
+            <td><button class="edit">Edit</button><button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>cucumber</td>
+            <td>Cucumis sativus</td>
+            <td>$2.10</td>
+            <td>20Cm</td>
+            <td>60 days</td>
+            <td>75cm apart</td>
+            <td><img src="images/cucumber.jpg" width="100px" height="100px" alt=""></td>
+            <td><button class="edit">Edit</button><button class="delete">Delete</button></td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
